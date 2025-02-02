@@ -1,11 +1,14 @@
 import "./App.css";
-import Button from "./Shear/Button";
+import Header from "./Component/Header";
+
+import Navbar from "./Component/Navbar";
 
 function App() {
   return (
     <>
       <main className="font-display">
-        <Button variant="plusIcon" text="get started"/>
+        <Navbar/>
+       <Header/>
         
       </main>
     </>
