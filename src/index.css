@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+@theme{
+  --color-orange: #F26922;
+  --color-dark: #09090B;
+  --color-light: #71717A;
+  --color-lighter: #E4E4E7;
+
+  --font-display: 'Onest', sans-serif;
+}
