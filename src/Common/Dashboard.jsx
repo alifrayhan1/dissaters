@@ -1,4 +1,4 @@
-import HeaderCompo from "../Shear/HeaderCompo";
+import HeaderCompo from "../Component/HeaderCompo";
 import ButtonCompo from "./Button";
 import FilterInput from "./FilterInput";
 import SearchBar from "./SearchBar";
