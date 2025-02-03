@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { AlignJustify, X } from "lucide-react";
 import { navSource } from "../Source";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [activeNavItem, setActiveNavItem] = useState(null);
@@ -28,12 +29,19 @@ function Navbar() {
               }`}
               onClick={() => setActiveNavItem(index)}
             >
-              <a
-                href={item.link}
-                className="hover:text-orange transition duration-300 ease-in-out"
+              <NavLink
+                to={item.link}
+                className={({ isActive }) =>
+                  isActive ? " font-bold" : ""
+                }
               >
-                {item.title}
-              </a>
+                <a
+                  href={item.link}
+                  className="hover:text-orange transition duration-300 ease-in-out"
+                >
+                  {item.title}
+                </a>
+              </NavLink>
             </li>
           ))}
         </ul>
@@ -74,13 +82,20 @@ function Navbar() {
           <ul className="text-white text-xl space-y-6">
             {navSource.map((item, index) => (
               <li key={index}>
-                <a
-                  href={item.link}
-                  className="hover:text-orange transition"
-                  onClick={() => setShowMobileMenu(false)}
+                <NavLink
+                  to={item.link}
+                  className={({ isActive }) =>
+                    isActive ? " font-bold" : ""
+                  }
                 >
-                  {item.title}
-                </a>
+                  <a
+                    href={item.link}
+                    className="hover:text-orange transition"
+                    onClick={() => setShowMobileMenu(false)}
+                  >
+                    {item.title}
+                  </a>
+                </NavLink>
               </li>
             ))}
           </ul>

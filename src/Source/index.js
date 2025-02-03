@@ -1,26 +1,26 @@
 export const navSource = [
     {
         title: "Dashboard",
-        link: "#"
+        link: "/"
     },
     {
         title: "Incidences",
-        link: "#"
+        link: "/incidences"
     },
     {
         title: "Locations",
-        link: "#"
+        link: "/locations"
     },
     {
         title: "Activities",
-        link: "#"
+        link: "/activities"
     },
     {
         title: "Documents",
-        link: "#"
+        link: "/documents"
     },
     {
         title: "Cypher AI",
-        link: "#"
+        link: "/cypherAI"
     },
 ];
