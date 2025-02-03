@@ -1,9 +1,9 @@
 import { Plus } from "lucide-react"; 
 
-export default function ButtonCompo({ text = "Button", className = "", variant }) {
+export default function ButtonCompo({ text = "Button", className = "", Icon }) {
   let buttonContent;
 
-  switch (variant) {
+  switch (Icon) {
     case "plusIcon":
       buttonContent = (
         <div className="flex items-center gap-2">

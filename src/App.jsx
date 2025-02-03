@@ -1,15 +1,15 @@
 import "./App.css";
-import Header from "./Component/Header";
-
+import Card from "./Common/Card";
+import Dashboard from "./Common/Dashboard";
 import Navbar from "./Component/Navbar";
 
 function App() {
   return (
     <>
       <main className="font-display">
-        <Navbar/>
-       <Header/>
-        
+        <Navbar />
+        <Dashboard/>
+        <Card/>
       </main>
     </>
   );
