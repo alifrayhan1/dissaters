@@ -3,6 +3,7 @@ import { AlignJustify, X } from "lucide-react";
 import { navSource } from "../Source";
 import { NavLink } from "react-router-dom";
 
+
 function Navbar() {
   const [activeNavItem, setActiveNavItem] = useState(null);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -12,6 +13,7 @@ function Navbar() {
   }, [showMobileMenu]);
 
   return (
+    <>
     <nav className="bg-lighter py-4 border-b border-light w-full">
       <div className="flex justify-between items-center px-6">
         <a href="#">
@@ -102,6 +104,8 @@ function Navbar() {
         </div>
       )}
     </nav>
+  
+    </>
   );
 }
 

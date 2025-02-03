@@ -10,7 +10,7 @@ function ChatAI() {
 
   return (
     <>
-      <section>
+      <section className="z-50">
         <div className="relative w-full">
           <button className="  fixed right-10 bottom-10" onClick={HandelChatAi}>
             {isChatOpen ? (

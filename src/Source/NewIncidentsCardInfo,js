@@ -1,0 +1,18 @@
+const CardInfo = [
+    {
+        img:"newcard1.png",
+        heading:"What type of incident?",
+        text:"Choose the category that best describes the incident.",
+    },
+    {
+        img:"newcard2.png",
+        heading:"Tell us about the incident?",
+        text:"Let’s connect the dots and see where to start.",
+    },
+    {
+        img:"newcard3.png",
+        heading:"Where did the incident occur?",
+        text:"Lorem ipsum dolar sit general sac mascho werho",
+    },
+]
+export default CardInfo;
