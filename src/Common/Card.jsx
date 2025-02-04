@@ -4,7 +4,7 @@ const Card = () => {
 
   return (
     <div className="flex justify-center">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 m-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-10">
         {cardSource.map((item, index) => (
           <div key={index} className="max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
             <img className="w-full object-cover " src={item.imageSrc} alt={item.altText} />

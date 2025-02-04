@@ -7,9 +7,10 @@ function FinishPage() {
   return (
     <>
       <section>
-        <DescribesHeader text="Finished"
+        <DescribesHeader
+          text="Finished"
           onBackClick={() => handleBackClick("/next")}
-          onNextClick={() => handleNextClick("/")} 
+          onNextClick={() => handleNextClick("/incidences")}
         />
         <div className="w-[80%] mx-auto space-y-2 mt-10 mb-20 flex flex-col justify-center">
           <h1 className="text-2xl text-dark font-bold">

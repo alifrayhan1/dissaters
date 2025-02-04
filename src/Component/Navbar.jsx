@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <>
     <nav className="bg-lighter py-4 border-b border-light w-full">
-      <div className="flex justify-between items-center px-6">
+      <div className="flex justify-between items-center px-5 lg:px-16">
         <a href="#">
           <img src="Logo.png" alt="Brand Logo" className="w-28" />
         </a>
