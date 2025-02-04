@@ -26,7 +26,7 @@ function Navbar() {
               key={index}
               className={`relative text-sm font-medium py-2 transition ${
                 activeNavItem === index
-                  ? "text-dark font-extrabold border-b-2 border-orange"
+                  ? "text-dark font-extrabold border-b-2 border-dark"
                   : "text-light"
               }`}
               onClick={() => setActiveNavItem(index)}
@@ -39,7 +39,7 @@ function Navbar() {
               >
                 <a
                   href={item.link}
-                  className="hover:text-orange transition duration-300 ease-in-out"
+                  className="hover:text-dark transition duration-300 ease-in-out"
                 >
                   {item.title}
                 </a>
@@ -92,7 +92,7 @@ function Navbar() {
                 >
                   <a
                     href={item.link}
-                    className="hover:text-orange transition"
+                    className="hover:text-dark transition"
                     onClick={() => setShowMobileMenu(false)}
                   >
                     {item.title}

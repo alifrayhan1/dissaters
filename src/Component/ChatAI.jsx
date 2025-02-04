@@ -31,7 +31,7 @@ function ChatAI() {
               </h1>
 
               <div>
-                <p className="ml-16 p-2 m-2 bg-dark rounded-xl text-lighter">
+                <p className="ml-16 p-2 m-2 bg-[#404040] rounded-xl text-white">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <p className="mr-16 p-2 m-2 rounded-xl bg-white text-light">
@@ -40,7 +40,7 @@ function ChatAI() {
                 <p className="mr-16 p-2 m-2 rounded-xl bg-white text-light">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
-                <p className="ml-16 p-2 m-2 bg-dark rounded-xl text-lighter">
+                <p className="ml-16 p-2 m-2 bg-[#404040] rounded-xl text-white">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>

@@ -8,6 +8,7 @@ import NewIncidents from "./Component/NewIncidents";
 import Describes from "./Component/Describes";
 import NextPage from "./Component/NextPage";
 import FinishPage from "./Component/FinishPage";
+import Locations from "./Component/Locations";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Route path="/get" element={<Describes />} />
           <Route path="/next" element={<NextPage/>}/>
           <Route path="/finish" element={<FinishPage/>}/>
-          
+          <Route path="/locations" element={<Locations/>}/>
         </Routes>
         <ChatAI />
       </main>
